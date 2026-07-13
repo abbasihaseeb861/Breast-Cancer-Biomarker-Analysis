@@ -23,6 +23,10 @@ plt.ylabel('Log2 Fold Change')
 plt.xlabel('Gene')
 plt.xticks(rotation=45)
 plt.legend()
+
+
 plt.tight_layout()
 plt.savefig('volcano_plot.png')
-print("\nGraph saved as volcano_plot.png")
+print("\nGraph saved as volcano_plot.png and plot.png")
+plt.savefig('plot.png')  
+plt.show()
